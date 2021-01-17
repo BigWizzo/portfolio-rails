@@ -1,30 +1,21 @@
 <div class="show-wrapper container-fluid">
   <div class="project">
-  <div class="show-title">
-      <%= @project.title %>
-  </div>
-  <div class="show-lang row">Languages</div>
-  <div class="pro-img-wrapper col-12 col-md-6">
-    <img class="show-img" src="" alt="">
-    <div class="show-img-info row">Show image info</div>
-  </div>
-  <div class="show-details row">
-      <div class="show-content">
-        <%= @project.content %>
-      </div>
-      <div class="show-source">
-        <div class="pro-lang d-flex row">Project languages</div>
-        <div class="pro-see row">Project sources</div>
-      </div>
+    <div class="show-title">
+        <%= @project.title %>
+    </div>
+    <div class="show-lang row">Languages</div>
+    <div class="pro-img-wrapper">
+      <img class="show-img" src="" alt="">
+      <div class="show-img-info row">Show image info</div>
+    </div>
+    <div class="show-details row">
+        <div class="show-content">
+          <%= @project.content %>
+        </div>
+        <div class="show-source">
+          <div class="pro-lang row">Project languages</div>
+          <div class="pro-see row">Project sources</div>
+        </div>
+    </div>
   </div>
 </div>
-
-
-
-<p>
-  <strong>Content:</strong>
-  
-</p>
-
-<%= link_to 'Edit', edit_project_path(@project) %> |
-<%= link_to 'Back', projects_path %>

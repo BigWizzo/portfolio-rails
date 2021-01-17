@@ -11,5 +11,26 @@
  * It is generally better to create a new file per style scope.
  */
 
- @import "bootstrap";
- 
+@import "bootstrap";
+
+.header {
+  height: 100vh;
+  background: yellow;
+}
+
+.header-content {
+  background: blue;
+}
+
+.project {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.pro-img-wrapper {
+  height: 300px;
+  background: url(image_processing20200714-9747-16mjqpg.png);
+  // border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
