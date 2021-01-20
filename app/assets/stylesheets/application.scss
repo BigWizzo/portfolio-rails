@@ -13,6 +13,51 @@
 
 @import "bootstrap";
 
+.font-12 {
+  font-size: 12px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-17 {
+  font-size: 17px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+// colors
+.tag-bg-blue {
+  background: #ebebff;
+}
+
+.tag-blue {
+  color: #6070ff;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
 .header {
   height: 100vh;
   background: yellow;
@@ -23,14 +68,66 @@
 }
 
 .project {
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  // border: 1px solid rgba(0, 0, 0, 0.125);
+  // border-radius: 0.25rem;
+}
+
+.pro-section {
+  width: 80%;
 }
 
 .pro-img-wrapper {
   height: 300px;
-  background: url(image_processing20200714-9747-16mjqpg.png);
+  background: url(./assets/projects/shore.png);
   // border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 8px;
+}
+
+.lang-span {
+  padding: 4px 12px;
+  margin: 8px 0px;
+  border-radius: 8px;
+}
+
+.about-my {
+  min-height: 65vh;
+  background: yellow;
+}
+
+.about-wrapper {
+  padding: 100px;
+}
+
+/* // Medium devices (tablets, 992px and down) */
+@media (max-width: 991px) {
+  .pro-section {
+    width: 95%;
+  }
+
+  .pro-title {
+    font-size: 18px;
+  }
+
+  .pro-stack {
+    font-size: 12px;
+  }
+
+  .pro-content {
+    font-size: 13px;
+  }
+
+  .pro-lang {
+    font-size: 12px;
+  }
+
+  .lang-span {
+    padding: 2px 11px;
+  }
+
+  .pro-btn {
+    font-size: 14px;
+    padding: 6px 12px;
+    font-size: 13px;
+  }
 }

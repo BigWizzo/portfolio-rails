@@ -2,7 +2,7 @@
   <%# nav start here %>
   <%= render 'projects/nav' %>
   <%# header start here %>
-  <header class="header container-fluid d-flex flex-column p-0">
+  <header class="header container-fluid p-0">
     <div class=" w-50 m-auto">
       <div class="">Header content 1</div>
       <div class="">Header content 2</div>
@@ -11,70 +11,91 @@
     </div>
   </header>
 
-  <section class="container">
+  <main class="main container-xl">
     <%# project section starts here %>
-    <div class="pro-section w-75 m-auto">
-      <div class="project row my-3">
-        <div class="pro-desc d-flex flex-column col-12 col-md-6 py-3">
-            <div class="pro-title">Project Title</div>
-            <div class="pro-content">Project content</div>
-            <div class="pro-lang d-flex">Project languages</div>
-            <div class="pro-see">Project see</div>
+    <div class="pro-section mx-auto">
+      <div class="row">
+        <div class="feature-img-div col-md-6 p-0">
+          <img
+            class="card-img"
+            src="https://d.newsweek.com/en/full/1636229/image-2-startup-making-long.jpg"
+            alt="Card image cap"
+          />
         </div>
-        <div class="pro-img-wrapper col-12 col-md-6 px-0">
-          <img class="pro-img" src="" alt="">
-        </div>
-      </div>
-      <div class="project row my-3">
-        <div class="pro-img-wrapper col-12 col-md-6 px-0">
-          <img class="pro-img" src="" alt="">
-        </div>
-        <div class="pro-desc d-flex flex-column col-12 col-md-6 py-3">
-          <div class="pro-title">Project Title</div>
-          <div class="pro-content">Project content</div>
-          <div class="pro-lang d-flex">Project languages</div>
-          <div class="pro-see">Project see</div>
-        </div>
-      </div>
-      <div class="project row my-3">
-        <div class="pro-desc d-flex flex-column col-12 col-md-6 py-3">
-          <div class="pro-title">Project Title</div>
-          <div class="pro-content">Project content</div>
-          <div class="pro-lang d-flex">Project languages</div>
-          <div class="pro-see">Project see</div>
-        </div>
-        <div class="pro-img-wrapper col-12 col-md-6 px-0">
-          <img class="pro-img" src="" alt="">
+        <div class="card-body col-md-6 ranking-border">
+          <h5 class="pro-title fam-hd font-weight-bold mb-0">
+            This Startup Is Making Long
+          </h5>
+          <div class="">
+            <span class="pro-stack font-13 text-info">FULL STACK</span>
+          </div>
+          <p class="pro-content mt-2 mb-2 font-15">
+            75% of Roofstock users are first-time real estate investors, and more than half are under 35. 75% of Roofstock users are first-time real estate investors, and more than half are under 35.
+          </p>
+          <div class="pro-lang mb-3 font-15">
+            <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">Ruby</span>
+            <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">HTML</span>
+            <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">CSS</span>
+          </div>
+          <button type="button" class="btn btn-primary pro-btn font-weight-bold">See Project</button>
         </div>
       </div>
-      <div class="project row my-3">
-        <div class="pro-img-wrapper col-12 col-md-6 px-0">
-          <img class="pro-img" src="" alt="">
+      <div class="row">
+        <div class="feature-img-div col-md-6 order-md-last p-0">
+          <img
+          class="card-img"
+          src="https://d.newsweek.com/en/full/1636229/image-2-startup-making-long.jpg"
+          alt="Card image cap"
+          />
         </div>
-        <div class="pro-desc d-flex flex-column col-12 col-md-6 py-3">
-          <div class="pro-title">Project Title</div>
-          <div class="pro-content">Project content</div>
-          <div class="pro-lang d-flex">Project languages</div>
-          <div class="pro-see">Project see</div>
+        <div class="card-body col-md-6 order- order-md-first ranking-border">
+          <h5 class="pro-title fam-hd font-weight-bold mb-0">
+            This Startup Is Making Long
+          </h5>
+          <div class="">
+            <span class="pro-stack font-13 text-info">FULL STACK</span>
+          </div>
+          <p class="pro-content mt-2 mb-2 font-15">
+            75% of Roofstock users are first-time real estate investors, and more than half are under 35. 75% of Roofstock users are first-time real estate investors, and more than half are under 35.
+          </p>
+          <div class="pro-lang mb-3 font-15">
+            <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">Ruby</span>
+            <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">HTML</span>
+            <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">CSS</span>
+          </div>
+          <button type="button" class="btn btn-primary pro-btn font-weight-bold">See Project</button>
         </div>
-      </div>
-    </div>
-  
-    <%# About myself starts here %>
-    <div class="abou-my container row">
-      <div class="col-12 col-md-6 d-flex flex-column">
-        <div class="about-title">About Myself</div>
-        <div class="about-content">About Content</div>
-        <div class="about-connect dflex">About Connect</div>
-        <div class="about-resume">About Resume</div>
-      </div>
-      <div class="col-12 col-md-6 d-flex flex-column">
-        <div class="about-lang">About Language</div>
-        <div class="about-frame">About Framework</div>
-        <div class="about-skill">About Skill</div>
       </div>
     </div>
-  </section>
+  </main>
+
+  <%# About myself starts here %>
+  <div class="about-my container-fluid">
+    <div class="about-wrapper row">
+      <div class="card-body col-md-6 ranking-border">
+        <h5 class="pro-title fam-hd font-weight-bold mb-0">
+        This Startup Is Making Long
+        </h5>
+        <div class="">
+          <span class="pro-stack font-13 text-info">FULL STACK</span>
+        </div>
+        <p class="pro-content mt-2 mb-2 font-15">
+        75% of Roofstock users are first-time real estate investors, and more than half are under 35. 75% of Roofstock users are first-time real estate investors, and more than half are under 35.
+        </p>
+        <div class="pro-lang mb-3 font-15">
+        <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">Ruby</span>
+        <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">HTML</span>
+        <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">CSS</span>
+        </div>
+        <button type="button" class="btn btn-primary pro-btn font-weight-bold">See Project</button>
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column">
+      <div class="about-lang">About Language</div>
+      <div class="about-frame">About Framework</div>
+      <div class="about-skill">About Skill</div>
+      </div>
+    </div>
+  </div>
 
   <%# footer starts here %>
   <footer class="footer container-fluid d-flex flex-column">
