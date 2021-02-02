@@ -3,11 +3,21 @@
   <%= render 'projects/nav' %>
   <%# header start here %>
   <header class="header container-fluid p-0">
-    <div class=" w-50 m-auto">
-      <div class="">Header content 1</div>
-      <div class="">Header content 2</div>
-      <div class="">Header content 3</div>
-      <div class="">Header content 4</div>
+    <div class="header-wrapper w-75 m-auto">
+      <div class="">
+        <h1 class="h1-title">I'm Will Nyamunokora, Glad to see you</h1>
+      </div>
+      <div class="">
+        <p class="heading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quidem aperiam voluptates temporibus praesentium neque laborum earum tempora consequatur doloremque labore</p>
+      </div>
+      <div class="pro-lang mb-3 font-15">
+        <p class="lang-span pl-0 ml-0 font-16 tag-blue font-weight-bold">LET'S CONNECT</p>
+      </div>
+      <div class="media-share pb-3">
+        <i class="fab fa-github-square font-20"></i>
+        <i class="fab fa-linkedin font-20"></i>
+        <i class="fab fa-twitter font-20"></i>
+      </div>
     </div>
   </header>
 
@@ -83,25 +93,80 @@
         75% of Roofstock users are first-time real estate investors, and more than half are under 35. 75% of Roofstock users are first-time real estate investors, and more than half are under 35.
         </p>
         <div class="pro-lang mb-3 font-15">
-        <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">Ruby</span>
-        <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">HTML</span>
-        <span class="lang-span font-12 tag-bg-blue tag-blue font-italic">CSS</span>
+          <p class="lang-span pl-0 ml-0 font-16 tag-blue font-weight-bold">LET'S CONNECT</p>
         </div>
-        <button type="button" class="btn btn-primary pro-btn font-weight-bold">See Project</button>
+        <div class="media-share pb-3">
+          <i class="fab fa-github-square font-20"></i>
+          <i class="fab fa-linkedin font-20"></i>
+          <i class="fab fa-twitter font-20"></i>
+        </div>
+        <button type="button" class="btn btn-info pro-btn font-weight-bold">GE MY RESUME</button>
       </div>
       <div class="col-12 col-md-6 d-flex flex-column">
-      <div class="about-lang">About Language</div>
-      <div class="about-frame">About Framework</div>
-      <div class="about-skill">About Skill</div>
+      <div class="about-lang row">
+        <h5 class="font-weight-lighter col-12">LANGUAGES</h5>
+        <div class="lang col-12 col-lg-6">
+          <div class="set row rounded bg-light py-1">
+            <div class="set-img col-2">
+              <i class="fab fa-js font-20"></i>
+            </div>
+            <div class="att col-10">JAVASCRIPT</div>
+          </div>
+        </div>
+        <div class="lang col-12 col-lg-6">
+          <div class="set row rounded bg-light py-1">
+            <div class="set-img col-2">
+              <i class="fas fa-ruble-sign"></i>
+            </div>
+            <div class="att col-10">RUBY</div>
+          </div>
+        </div>
+        <div class="lang col-12 col-lg-6">one</div>
+        <div class="lang col-12 col-lg-6">one</div>
+      </div>
+      <div class="about-frame row">
+        <h5 class="font-weight-lighter col-12">FRAMEWORKS</h5>
+          <div class="lang col-12 col-lg-6">two</div>
+          <div class="lang col-12 col-lg-6">two</div>
+          <div class="lang col-12 col-lg-6">two</div>
+          <div class="lang col-12 col-lg-6">two</div>
+      </div>
+      <div class="about-skill row">
+        <h5 class="font-weight-lighter col-12">SKILLS</h5>
+           <div class="lang col-12 col-lg-6">three</div>
+           <div class="lang col-12 col-lg-6">three</div>
+           <div class="lang col-12 col-lg-6">three</div>
+           <div class="lang col-12 col-lg-6">three</div>
+        </div>
       </div>
     </div>
   </div>
 
   <%# footer starts here %>
   <footer class="footer container-fluid d-flex flex-column">
-    <div class="ft-title">Title</div>
-    <div class="ft-content">Content</div>
-    <form class="footer-form">Form</form>
-    <div class="ft-btn">Button</div>
+    <div class="ft-title text-center">
+      <h4>Contact Me</h4>
+    </div>
+    <div class="ft-content text-center">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero distinctio animi</p>
+    </div>
+    <div class="form-div m-auto">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </footer>
 </div>
