@@ -2,7 +2,7 @@
   <%# nav start here %>
   <%= render 'projects/nav' %>
   <%# header start here %>
-  <header class="header container-fluid p-0">
+  <header class="header container-fluid bg-white p-0">
     <div class="header-wrapper m-auto">
       <div class="">
         <h1 class="h1-title">I'm Will Nyamunokora, Glad to see you</h1>
@@ -21,10 +21,10 @@
     </div>
   </header>
 
-  <main class="main container-xl">
+  <main class="main container-xl py-4">
     <%# project section starts here %>
     <div class="pro-section mx-auto">
-      <div class="row">
+      <div class="row bg-white">
         <div class="feature-img-div col-md-6 p-0">
           <img
             class="card-img"
@@ -50,7 +50,7 @@
           <button type="button" class="btn btn-primary pro-btn font-weight-bold">See Project</button>
         </div>
       </div>
-      <div class="row">
+      <div class="row bg-white">
         <div class="feature-img-div col-md-6 order-md-last p-0">
           <img
           class="card-img"
@@ -80,7 +80,7 @@
   </main>
 
   <%# About myself starts here %>
-  <div class="about-my container-fluid">
+  <article class="about-my container-fluid bg-white">
     <div class="about-wrapper row">
       <div class="card-body col-md-6 ranking-border">
         <h5 class="pro-title fam-hd font-weight-bold mb-0">
@@ -140,33 +140,41 @@
         </div>
       </div>
     </div>
-  </div>
+  </article>
 
   <%# footer starts here %>
-  <footer class="footer container-fluid d-flex flex-column">
-    <div class="ft-title text-center">
-      <h4>Contact Me</h4>
-    </div>
-    <div class="ft-content text-center">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero distinctio animi</p>
-    </div>
-    <div class="form-div m-auto">
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  <footer class="footer container-fluid bg-white px-0">
+    <div class="ft-inner bg-blue text-white py-5 d-flex flex-column">
+      <div class="ft-body-wrap w-75 m-auto">
+        <div class="form-div-inner m-auto">
+          <div class="ft-title text-center">
+            <h4>Contact Me</h4>
+          </div>
+          <div class="ft-content text-center">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero distinctio animi</p>
+          </div>
+          <div class="">
+            <div class="">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      </div>
     </div>
   </footer>
 </div>

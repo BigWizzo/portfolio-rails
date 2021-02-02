@@ -42,6 +42,14 @@
 }
 
 // colors
+.bg {
+  background-color: #f4f5f7;
+}
+
+.bg-blue {
+  background: #6070ff;
+}
+
 .tag-bg-blue {
   background: #ebebff;
 }
@@ -60,7 +68,7 @@
 
 .header {
   height: 90vh;
-  background: yellow;
+  border-radius: 0 0 0 100px;
 }
 
 .header-wrapper {
@@ -88,11 +96,25 @@
 
 .about-my {
   min-height: 65vh;
+  border-radius: 0 100px 0 0;
   // background: yellow;
 }
 
 .about-wrapper {
   padding: 100px;
+}
+
+.ft-inner {
+  border-radius: 100px 0 0 0;
+}
+
+.form-div-inner {
+  width: 50%;
+}
+
+.navbar-collapse {
+  // flex-direction: row;
+  // justify-content: flex-end;
 }
 
 /* // Medium devices (tablets, 992px and down) */
@@ -134,5 +156,23 @@
 
   .about-wrapper {
     padding: 20px;
+  }
+
+  .form-div-inner {
+    width: 65%;
+  }
+}
+
+/* // Small devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  .form-div-inner {
+    width: 75%;
+  }
+}
+
+/* // Very smaller devices (tablets, 768px and down) */
+@media (max-width: 576px) {
+  .form-div-inner {
+    width: 100%;
   }
 }
