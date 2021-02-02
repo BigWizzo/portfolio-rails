@@ -64,7 +64,8 @@
 }
 
 .header-wrapper {
-  padding: 6.5rem;
+  padding: 100px;
+  width: 75%;
 }
 
 .pro-section {
@@ -96,6 +97,11 @@
 
 /* // Medium devices (tablets, 992px and down) */
 @media (max-width: 991px) {
+  .header-wrapper {
+    padding: 100px;
+    width: 100%;
+  }
+
   .pro-section {
     width: 95%;
   }
