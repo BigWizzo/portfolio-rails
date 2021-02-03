@@ -2,7 +2,7 @@
   <%# nav start here %>
   <%= render 'projects/nav' %>
   <%# header start here %>
-  <header class="header container-fluid bg-white p-0">
+  <header class="header container-fluid bg-white p-0 pos-rel">
     <div class="header-wrapper m-auto">
       <div class="">
         <h1 class="h1-title">I'm Will Nyamunokora, Glad to see you</h1>
@@ -19,6 +19,9 @@
         <i class="fab fa-twitter font-20"></i>
       </div>
     </div>
+    <div class="circle-rec-1 pos-abs"></div>
+    <div class="circle-small-2 br-50 pos-abs"></div>
+    <div class="circle-small-3 br-50 pos-abs"></div>
   </header>
 
   <main class="main container-xl py-4">
@@ -84,13 +87,13 @@
     <div class="about-wrapper row">
       <div class="card-body col-md-6 ranking-border">
         <h5 class="pro-title fam-hd font-weight-bold mb-0">
-        This Startup Is Making Long
+          This Startup Is Making Long
         </h5>
         <div class="">
           <span class="pro-stack font-13 text-info">FULL STACK</span>
         </div>
         <p class="pro-content mt-2 mb-2 font-15">
-        75% of Roofstock users are first-time real estate investors, and more than half are under 35. 75% of Roofstock users are first-time real estate investors, and more than half are under 35.
+          75% of Roofstock users are first-time real estate investors, and more than half are under 35. 75% of Roofstock users are first-time real estate investors, and more than half are under 35.
         </p>
         <div class="pro-lang mb-3 font-15">
           <p class="lang-span pl-0 ml-0 font-16 tag-blue font-weight-bold">LET'S CONNECT</p>
@@ -100,43 +103,143 @@
           <i class="fab fa-linkedin font-20"></i>
           <i class="fab fa-twitter font-20"></i>
         </div>
-        <button type="button" class="btn btn-info pro-btn font-weight-bold">GE MY RESUME</button>
-      </div>
-      <div class="col-12 col-md-6 d-flex flex-column">
-      <div class="about-lang row">
-        <h5 class="font-weight-lighter col-12">LANGUAGES</h5>
-        <div class="lang col-12 col-lg-6">
-          <div class="set row rounded bg-light py-1">
-            <div class="set-img col-2">
-              <i class="fab fa-js font-20"></i>
+        <button type="button" class="btn bg-blue pro-btn text-white font-weight-bold">GE MY RESUME</button>
+      </div>                                                                                                                                              
+      <div class="accordion col-md-6" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                LANGUAGES
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body row">
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fab fa-js font-20"></i>
+                  </div>
+                  <div class="att col-9 font-13">JAVASCRIPT</div>
+                </div>
+              </div>
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fas fa-registered"></i>
+                  </div>
+                  <div class="att col-9 font-13">RUBY</div>
+                </div>
+              </div>
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fab fa-html5"></i>
+                  </div>
+                  <div class="att col-9 font-13">HTML5</div>
+                </div>
+              </div>
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fab fa-css3-alt"></i>
+                  </div>
+                  <div class="att col-9 font-13">CSS3</div>
+                </div>
+              </div>
             </div>
-            <div class="att col-10">JAVASCRIPT</div>
           </div>
         </div>
-        <div class="lang col-12 col-lg-6">
-          <div class="set row rounded bg-light py-1">
-            <div class="set-img col-2">
-              <i class="fas fa-ruble-sign"></i>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                FRAMEWORKS
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body row">
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fab fa-js font-20"></i>
+                  </div>
+                  <div class="att col-9 font-13">JAVASCRIPT</div>
+                </div>
+              </div>
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fas fa-registered"></i>
+                  </div>
+                  <div class="att col-9 font-13">RUBY</div>
+                </div>
+              </div>
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fab fa-html5"></i>
+                  </div>
+                  <div class="att col-9 font-13">HTML5</div>
+                </div>
+              </div>
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fab fa-css3-alt"></i>
+                  </div>
+                  <div class="att col-9 font-13">CSS3</div>
+                </div>
+              </div>
             </div>
-            <div class="att col-10">RUBY</div>
           </div>
         </div>
-        <div class="lang col-12 col-lg-6">one</div>
-        <div class="lang col-12 col-lg-6">one</div>
-      </div>
-      <div class="about-frame row">
-        <h5 class="font-weight-lighter col-12">FRAMEWORKS</h5>
-          <div class="lang col-12 col-lg-6">two</div>
-          <div class="lang col-12 col-lg-6">two</div>
-          <div class="lang col-12 col-lg-6">two</div>
-          <div class="lang col-12 col-lg-6">two</div>
-      </div>
-      <div class="about-skill row">
-        <h5 class="font-weight-lighter col-12">SKILLS</h5>
-           <div class="lang col-12 col-lg-6">three</div>
-           <div class="lang col-12 col-lg-6">three</div>
-           <div class="lang col-12 col-lg-6">three</div>
-           <div class="lang col-12 col-lg-6">three</div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                SKILLS
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body row">
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fab fa-js font-20"></i>
+                  </div>
+                  <div class="att col-9 font-13">JAVASCRIPT</div>
+                </div>
+              </div>
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fas fa-registered"></i>
+                  </div>
+                  <div class="att col-9 font-13">RUBY</div>
+                </div>
+              </div>
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fab fa-html5"></i>
+                  </div>
+                  <div class="att col-9 font-13">HTML5</div>
+                </div>
+              </div>
+              <div class="lang col-6">
+                <div class="set row rounded bg-lang text-white py-1">
+                  <div class="set-img col-3">
+                    <i class="fab fa-css3-alt"></i>
+                  </div>
+                  <div class="att col-9 font-13">CSS3</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -169,7 +272,7 @@
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-light btn-lg btn-block">Submit</button>
               </form>
             </div>
           </div>
