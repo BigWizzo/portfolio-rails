@@ -21,6 +21,10 @@ h1 {
   font-size: 35px;
 }
 
+.h2-title {
+  color: hsla(234, 87%, 50%, 0.438);
+}
+
 .font-12 {
   font-size: 12px;
 }
@@ -49,17 +53,33 @@ h1 {
   font-size: 20px;
 }
 
+.font-22 {
+  font-size: 22px;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
 // styles
 .br-50 {
   border-radius: 50%;
 }
 
+.c-hd {
+  font-size: 14px;
+}
+
 .circle-rec-1 {
-  width: 15vw;
-  height: 30vw;
+  width: 13vw;
+  height: 28vw;
   background: hsla(234, 87%, 50%, 0.24);
-  top: 40vh;
-  left: 1vw;
+  top: 42vh;
+  left: 0vw;
   transform: translate(40%, 40%);
 }
 
@@ -68,7 +88,7 @@ h1 {
   height: 25vw;
   background: hsla(211, 100%, 50%, 0.466);
   top: 3vw;
-  right: 5vw;
+  right: 1vw;
 }
 
 .circle-small-3 {
@@ -76,7 +96,7 @@ h1 {
   height: 15vw;
   background: hsla(234, 87%, 50%, 0.24);
   top: 15vw;
-  right: 17vw;
+  right: 15vw;
 }
 
 .circle-small-4 {
@@ -203,8 +223,12 @@ h1 {
     font-size: 30px;
   }
 
-  .heading {
-    font-size: 15px;
+  .h2-title {
+    font-size: 27px;
+  }
+
+  .c-hd {
+    font-size: 13px;
   }
 
   .header-wrapper {
@@ -268,7 +292,11 @@ h1 {
     font-size: 20px;
   }
 
-  .heading {
-    font-size: 14px;
+  .h2-title {
+    font-size: 18px;
+  }
+
+  .c-hd {
+    font-size: 12px;
   }
 }
